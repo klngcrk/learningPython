@@ -13,3 +13,4 @@ received = stream.getvalue()
 
 expected = 'Hello world! Nazywam się'
 assert  expected in received, "Oczekiwano tekstu zawierajacego\n'{}'\n, a otrzymano:\n'{}'".format(expected,  received if received else 'Pusty tekst')
+print("Success!")
