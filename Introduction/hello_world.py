@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 '''Tradycyjnie pierwszy program napisany w dowolnym języku, powinien zaczynać się 
 	od przywitania ze światem, czyli 'Hello world!'. Oczywiście przy powitaniu warto się przedstawić.
 
@@ -6,3 +8,4 @@
 
 	Podpowiedź: użyj funkcji print()
 '''
+print ('hello word')
