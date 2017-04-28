@@ -1,6 +1,5 @@
 ﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
 '''W tym programie postaramy się sprawdzić działanie Pythona, gdy popełnimy błąd składniowy
    Zadanie:
    1) Uruchom program. Przeanalizuj otrzymany błąd.
