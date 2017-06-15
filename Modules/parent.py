@@ -17,3 +17,11 @@ False
 True
 """
 print("Using parent module")
+
+def nearest_odd(y):
+	if (y%2==0):
+		wynik = y + 1
+	else:
+		wynik = y + 2
+	return wynik	
+	

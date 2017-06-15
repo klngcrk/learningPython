@@ -8,4 +8,11 @@ Use function is_odd() from parent module.
 7
 >>>closest_odd(2)
 3
+
+
 """
+
+from parent import nearest_odd
+
+
+print (nearest_odd(int(input('wprowadz_liczbe'))))
