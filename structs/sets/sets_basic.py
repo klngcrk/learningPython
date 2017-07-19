@@ -34,12 +34,11 @@ S - {2, 'k'}
 
 5. Napisz program usuwający element z setu, pod warunkiem, że jest element istnieje w secie.
    S = {123,345, 45}
-   S. remove(45)
-   S
-=> {345, 123}
-or z if
-nie wiem  :-) czuje, że było by lepsze
-
+   x = 45
+   if x in S:
+    S.remove(x)
+    print (x)
+  
 6. Napisz program wypisujący elementy wspólne dwóch setów.
 
   S = {1, 2, 7, 'M', 'k'}
