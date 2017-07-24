@@ -17,8 +17,8 @@ Zadania z podwója gwiazdką są trudne i również są opcjonalne.
 
 3. Napisz program wypisujący wartość ze słownika dla podanego klucza. Jeżeli klucz nie istnieje w słowniku, program nie zwróci błędu KeyError.
  D = {'perindolpilum':2, 'simvastatinum':1, 'atenololum':2}
- D.pop('morfini', [0])
-=> [0]   
+ D.get('morfini', 0)
+=>0   
 
 4. Napisz program wypisujący wartość ze słownika dla podanego klucza. Jeżeli klucz nie istnieje w słowniku, program zwróci: None
 	D = {'perindoprilum':2, 'simvastatinum':1}
