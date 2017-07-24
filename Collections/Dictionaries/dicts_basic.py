@@ -21,6 +21,7 @@ Zadania z podwója gwiazdką są trudne i również są opcjonalne.
 => [0]   
 
 4. Napisz program wypisujący wartość ze słownika dla podanego klucza. Jeżeli klucz nie istnieje w słowniku, program zwróci: None
+	D = {'perindoprilum':2, 'simvastatinum':1}
 print (D.get('morfini'))
 None
 
@@ -75,3 +76,8 @@ min(D.values())
 
 13.** Napisz program tworzący słownik z dwóch list, pierwsza lista reprezentuje klucze, druga wartości. Należy zachować kolejność list,
 	 pierwszy klucz odpowiada pierwszej wartości itd. 
+a = ['cukrzyca', 'nadcisnienie', 'impotencja']
+b = ['siofor', 'nebiwolum', 'sildenafil']
+D = dict(zip((a), (b)))
+D
+=> {'cukrzyca': 'siofor', 'nadcisnienie': 'nebiwolum', 'impotencja': 'sildenafil'}
