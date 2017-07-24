@@ -35,7 +35,11 @@ D = {'perindoprilum': 2, 'simvastatinum': 1, 'atenololum': 2}
    D = {'morfini':2, 'codeini':4, 'fentanyl':8}
    if 'key' in D: 
 ..   D.pop('key') 
-..   print (D)     nie wychodzi mi w tym zapisie
+..   print (D)     nie wychodzi mi w tym zapisie, myslałam o del ale jest 'pod warunkiem'. z del to prościzna 
+
+del D['impotencja']
+D
+=> {'cukrzyca': 'siofor', 'nadcisnienie': 'nebiwolum'}
 
 7. Napisz program usuwający klucz ze słownika. Jeżeli klucz nie istnieje, program zwróci stringa 'Klucz nie istnieje w tym słowniku'.
 D = {'perindoprilum': 2, 'simvastatinum': 1, 'atenololum': 2}
