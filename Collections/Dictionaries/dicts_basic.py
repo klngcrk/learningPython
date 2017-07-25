@@ -48,6 +48,11 @@ D.pop('morfini', 'KLucz nie istnieje w tym słowniku')
 
 8. Napisz program usuwający wszystkie klucze ze słownika.
 
+   D = {'atropini':2, 'fentanyl':4, 'morfini':6}
+   D.clear()
+   D
+=> {}   
+
 9. Napisz program wypisujący wszyskie klucze ze słownika.
    D = {'perindoprilum':2, 'simvastatinum':1,'atenololum':2, 'nilogrinum':3}
    D.keys()
