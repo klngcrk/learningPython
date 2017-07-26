@@ -41,6 +41,19 @@ del D['codeini']
 D
 => {'morfini':2, 'fentanyl':8}
 
+Zrobiłam cos takiego, niby wyszło ale jednocześnie wyskoczył bład :-(
+	
+D = {'morfini':2, 'codeini':3}
+   for i in D: 
+..   del D[i] 
+..   print (D) 
+.. print ('morfini')  
+{'codeini': 3}
+Traceback (most recent call last):
+  File "python", line 1, in <module>
+RuntimeError: dictionary changed size during iteration
+	
+
 7. Napisz program usuwający klucz ze słownika. Jeżeli klucz nie istnieje, program zwróci stringa 'Klucz nie istnieje w tym słowniku'.
 D = {'perindoprilum': 2, 'simvastatinum': 1, 'atenololum': 2}
 D.pop('morfini', 'KLucz nie istnieje w tym słowniku')
