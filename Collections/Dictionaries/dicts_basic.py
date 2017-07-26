@@ -43,12 +43,12 @@ D
 
 Zrobiłam cos takiego, niby wyszło ale jednocześnie wyskoczył bład :-(
 	
-D = {'morfini':2, 'codeini':3}
+   D = {'morfini':2, 'codeini':3, 'sildenafil':5, 'acebutolol':2}
    for i in D: 
 ..   del D[i] 
 ..   print (D) 
 .. print ('morfini')  
-{'codeini': 3}
+{'codeini': 3, 'sildenafil': 5, 'acebutolol': 2}
 Traceback (most recent call last):
   File "python", line 1, in <module>
 RuntimeError: dictionary changed size during iteration
