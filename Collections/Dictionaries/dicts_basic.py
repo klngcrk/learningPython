@@ -94,6 +94,12 @@ min(D.values())
 => 1
 
 13. Napisz program przechodzący zwracający iloczyn wartości słownika. 
+D = {'zolpidem':1, 'relanium':2, 'midazolam':4}
+a = list(D.values())
+ a
+=> [1, 2, 4]  
+[(a*a) for a in a]
+=> [1, 4, 16]
 
 
 13.** Napisz program tworzący słownik z dwóch list, pierwsza lista reprezentuje klucze, druga wartości. Należy zachować kolejność list,
