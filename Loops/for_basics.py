@@ -30,10 +30,21 @@ lista = [[1, 2, 3], [9, 10, 11], [20, 30, 40]]
 # region zadania z iterowaniem kolekcji
 
 # 9. Napisz program wypisujący litery ze stringa.
+   L = 'masakra'
+   for i in L: 
+..   print (i, end=' ') 
+..   
+m a s a k r a    
 
 # 10. Napisz program wypisujący kolejne słowa ze stringa.
+x = 'Taksanska masakra pila mechaniczna'
+   for i in x: 
+..   print (i, end='') 
+..   
+Taksanska masakra pila mechaniczna  
 
 # 11. Napisz program wypisujący liczbę cyfr z liczby.
+
 
 # 12. Napisz program wypisujący cyfry z liczby. Cyfry nie mogą się powtarzać.
 
