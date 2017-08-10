@@ -15,6 +15,21 @@ Zadania z podwója gwiazdką są bardzo trudne i również są opcjonalne.
 1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49    
 
 # 2. Napisz program wypisujący kwadraty liczb z przedziału <1, 10>
+   for i in range(1, 11): 
+..   i *=i 
+..   print(i) 
+..   
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
+   
 
 # 3. Napisz program wypisujący liczby z przedziału <100, 1>
 
@@ -48,7 +63,9 @@ x = 'Taksanska masakra pila mechaniczna'
 Taksanska masakra pila mechaniczna  
 
 # 11. Napisz program wypisujący liczbę cyfr z liczby.
-
+   x='1234567890098765'
+   len(x)
+=> 16   
 
 # 12. Napisz program wypisujący cyfry z liczby. Cyfry nie mogą się powtarzać.
 
