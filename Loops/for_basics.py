@@ -77,6 +77,17 @@ Taksanska masakra pila mechaniczna
 # 12. Napisz program wypisujący cyfry z liczby. Cyfry nie mogą się powtarzać.
 
 # 13. Napisz program sprawdzający czy wszystkie cyfry liczby są parzyste.
+   L=[1, 2, 3, 4, 6, 7, 88, 7, 62]
+for i in L: 
+..   if i % 2 == 1: 
+..       continue 
+..   print(i)      
+..   
+2
+4
+6
+88
+62
 
 # 14. | Napisz program wypisujący zadaną liczbę zastępując jej kolejne cyfry liczbami powstałymi przez
 #     | dodanie do cyfr liczby 1 (1598 = 26109)
