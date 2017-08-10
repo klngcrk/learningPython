@@ -9,6 +9,10 @@ Zadania z podwója gwiazdką są bardzo trudne i również są opcjonalne.
 
 # region zadania z funkcją range()
 # 1. Napisz program wypisujący co drugą liczbę z przedziału <1, 50>
+  for i in range(1, 51, 2): 
+..   print(i, end=' ') 
+..   
+1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49    
 
 # 2. Napisz program wypisujący kwadraty liczb z przedziału <1, 10>
 
