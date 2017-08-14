@@ -73,14 +73,20 @@ Zadania z podwója gwiazdką są bardzo trudne i również są opcjonalne.
 210 420 630 840    
 
 # 8* | Napisz program wypisujący pojedynczo(!) każdą liczbę z poniższej listy:
-lista = [[1, 2, 3], [9, 10, 11], [20, 30, 40]]
-   L=[[1, 2, 3], [9, 10, 11], [20, 30, 40]]
-   for (a, b, c) in L: 
-..   print(a, b, c) 
-..   
-1 2 3
-9 10 11
-20 30 40
+  L = [[1, 2, 3], [5, 6, 7], [21, 43, 545]]
+   for i in L: 
+..   for j in i: 
+..     print(j) 
+..     
+1
+2
+3
+5
+6
+7
+21
+43
+545
 
 # endregion
 # region zadania z iterowaniem kolekcji
