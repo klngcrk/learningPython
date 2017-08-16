@@ -12,6 +12,15 @@ Zadania z podwója gwiazdką są bardzo trudne i również są opcjonalne.
   for i in range(1, 51, 2): 
 ..   print(i, end=' ') 
 ..   
+1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49  
+
+#WHILE
+
+   a=1; b=50
+   while a < b: 
+..   print(a, end=' ') 
+..   a += 2 
+..   
 1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49    
 
 # 2. Napisz program wypisujący kwadraty liczb z przedziału <1, 10>
