@@ -7,6 +7,9 @@ Zadania z podwója gwiazdką są trudne i również są opcjonalne.
 1. Napisz program tworzący nowy set z jednym element oraz drugi pusty set.
 set()
 
+set([3])
+=> {3}
+
 2. Napisz program wypisujący wszystkie elementy setu.
 
 S = {4,5,6}
@@ -40,15 +43,9 @@ S - {2, 'k'}
     print (x)
   
 6. Napisz program wypisujący elementy wspólne dwóch setów.
-
-  S = {1, 2, 7, 'M', 'k'}
-   S - {2, 'k'}
-=> {1, 'M', 7}   
-
-or
-
+S = {1, 2, 7, 'M', 'k'}
 S1 = {7, 'M'}
-   S & S1
+S & S1
 => {'M', 7}
 
 7*. Napisz program wypisujący różnicę setów (elementy obecne w secie A, których nie ma w secie B)

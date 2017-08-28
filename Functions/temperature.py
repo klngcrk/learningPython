@@ -13,3 +13,10 @@ Fill out a function converting Fahrenheit to Celsius degrees. Result should be f
 
 def f_to_celsius(f):
 	pass
+
+
+def f_to_celsius(f):
+    c = (f - 32)/1.8
+    return c
+print(f_to_celsius(10))
+-12,222
