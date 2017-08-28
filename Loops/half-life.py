@@ -18,3 +18,10 @@ T 				- half-life time [years]
 
 def mass_after_decay(initial_mass, t, T):
     pass
+
+
+   def mass_after_decay(initial_mass, t, T): 
+..   return initial_mass*(1/2**(t/T)) 
+..   
+   mass_after_decay(10, 15, 5)
+=> 1.25   
