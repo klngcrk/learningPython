@@ -1,5 +1,7 @@
 #1. Write a Python program to read an entire text file. 
 
+file = open('D:/userdata/kogutmal/Desktop/Python/Sildenafil.txt', 'r').read()
+file.close()
 
 #2. Write a Python program to read first n lines of a file. 
 
