@@ -7,12 +7,19 @@ file.close()
 
 
 #3. Write a Python program to append text to a file and display the text. 
-
+file = open('D:/userdata/kogutmal/Desktop/Python/Lidocaina.txt', 'a')
+file.write('Lidocaina to niebezpieczny lek dla niemowlat \n')
+file.close()
 
 #4. Write a Python program to read last n lines of a file. 
 
 
 #5. Write a Python program to read a file, line by line and store it into a list.  
+file = (open('D:/userdata/kogutmal/Desktop/Python/Lidocaina.txt', 'r'))
+D = []
+for linia in file:
+    D.append(linia)
+    print D
 
 
 #6. Write a Python program to read a file, line by line store it into a variable.  
